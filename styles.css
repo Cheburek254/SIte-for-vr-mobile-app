@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+}
+.header{
+    color: #DFD7CA;
+    font-size: 64px;
+    font-family: Inter;
+    font-weight: 700;
+    background: #423431;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    
+}
+.img-first{
+    width: 100%;
+    margin: 0%;
+    height: 65%;
+}
+.container{
+    display: flex;
+}
+.container-img{
+    width: 35%;
+
+}
+.main-text-first{
+    
+    font-size: 24px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.main-text-second{
+    
+    font-size: 20px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.dark{
+    background: #423431;
+    color: #DFD7CA;
+}
+.light{
+    background: #DFD7CA;
+    color: #423431;
+}
+h3{
+    text-align: center;
+    font-size: 28px;
+}
+.download-text{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-size: 32px;
+}
+.qr{
+    background-color: #423431;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.column{
+    flex-direction: column;
+}
