@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+    background-color: #262626;
+    color: #175A6B;
+    
+}
+.header{
+    
+    font-size: 34px;
+    font-family: Inter;
+    font-weight: 700;
+    
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+.img-first{
+    width: 100%;
+    margin: 0%;
+    height: 65%;
+    padding-bottom: 15px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    
+    
+}
+.light{
+    background-color: #F2F2F2;
+    
+    margin: 20px;
+    padding: 20px;
+}
+.cherta{
+    height: 6px;
+    background-color: #636363;
+    margin: 20px;
+}
+.container-img{
+    width: 25%;
+    height: 25%;
+
+}
+.main-text-first{
+    
+    font-size: 24px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.main-text-second{
+    
+    font-size: 20px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+
+h3{
+    text-align: center;
+    font-size: 28px;
+    
+}
+.download-text{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-size: 32px;
+}
+.qr{
+   
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.column{
+    flex-direction: column;
+}
+.btn{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border: 2px solid #CDD2D3;
+    border-radius: 10px;
+    font-size: 13px;
+    height: 40px;
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    font-family: Inter;
+    font-weight: 700;
+    
+    padding: 5px;
+    background-color: #DCDEDB;
+  
+}
+.menu{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #F2F2F2;
+    color: #175A6B;
+    vertical-align: center;
+    display: flex;
+}
+.btn:hover{
+    background-color: #7f7f7f;
+    color: #175A6B;
+    border: 2px solid #7f7f7f;
+}
+footer{
+    background-color: #262626;
+}
+.img-block{
+   
+    width: 100%;
+    height: auto;
+}
