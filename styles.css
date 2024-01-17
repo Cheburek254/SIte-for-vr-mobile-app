@@ -1,17 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,300&family=PT+Serif:ital@1&display=swap');
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Bitter', serif;
     height: 100%;
     margin: 0;
     padding: 0; 
     background-color: #262626;
     color: #175A6B;
     
+    
 }
 .header{
     
     font-size: 34px;
-    font-family: Inter;
+    font-family: 'PT Serif', serif;
     font-weight: 700;
     
     width: 100%;
@@ -47,7 +48,7 @@ body{
     margin: 20px;
 }
 .container-img{
-    width: 25%;
+    width: 35%;
     height: 25%;
 
 }
@@ -68,6 +69,7 @@ body{
 h3{
     text-align: center;
     font-size: 28px;
+    font-family: 'PT Serif', serif;
     
 }
 .download-text{
@@ -101,7 +103,7 @@ h3{
     text-align: center;
     vertical-align: middle;
     user-select: none;
-    font-family: Inter;
+    font-family: 'PT Serif', serif;
     font-weight: 700;
     
     padding: 5px;
@@ -129,4 +131,35 @@ footer{
    
     width: 100%;
     height: auto;
+}
+.ruka{
+    margin: 15px;
+    width: 50%;
+    height: auto;
+}
+.number{
+    background-color: #175A6B;
+    color: #DCDEDB;
+    width: 50px;
+    height: 33px;
+    align-items: center;
+    text-align: center;
+    padding-top: 17px;
+    border-radius: 15px;
+}
+.blue{
+    height: 6px;
+    width: 150px;
+    background-color: #175A6B;
+    margin: 15px;
+}
+.sozd{
+    border: #175A6B 2px solid;
+    border-radius: 40px;
+    width: 100%;
+}
+.monuments{
+    height: 300px;
+    width: auto;
+    margin: 10px;
 }
